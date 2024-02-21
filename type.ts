@@ -8,3 +8,5 @@ let age: number = 12;
 // String
 let firstName: string = 'Steve';
 let lastName: string = 'Rodas';
+
+let fullName: string = `${firstName} ${lastName}`;
