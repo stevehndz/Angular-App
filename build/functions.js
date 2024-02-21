@@ -15,16 +15,16 @@ const sum4 = function (a, b) {
     if(lasName) return name + " " + lasName;
     else return name;
 }*/
-function getFullName(name, lasName = 'Obrador') {
+function getFullName(name, lasName = "Obrador") {
     if (lasName)
         return name + " " + lasName;
     else
         return name;
 }
-console.log(getFullName('Pedro'));
-console.log(getFullName('Pedro', 'Paramo'));
+console.log(getFullName("Pedro"));
+console.log(getFullName("Pedro", "Paramo"));
 // REST Params
 function getFullName2(name, ...restName) {
-    return name + " " + restName.join(' ');
+    return name + " " + restName.join(" ");
 }
-console.log(getFullName2('Ana', 'Maria', 'Dolores', 'Garcia'));
+console.log(getFullName2("Ana", "Maria", "Dolores", "Garcia"));
