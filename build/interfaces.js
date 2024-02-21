@@ -19,3 +19,12 @@ const mySearch = (v, b) => {
     return result > -1;
 };
 console.log(mySearch('hola', 'ola'));
+class Adult {
+    constructor(pName, pAge, pCar) {
+        this.car = pCar;
+        this.name = pName;
+        this.age = pAge;
+    }
+}
+class Child {
+}
