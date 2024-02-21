@@ -13,3 +13,9 @@ function showCar(pCar) {
 }
 showCar({ brand: 'Mercedes', model: 'C180' });
 showCar({ brand: 'Mercedes', model: 'TY121', color: 'Rojo' });
+let p1 = { x: 121, y: 64 };
+const mySearch = (v, b) => {
+    const result = v.search(b);
+    return result > -1;
+};
+console.log(mySearch('hola', 'ola'));
