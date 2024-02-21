@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // Compiler version
+        "outDir": "build", // Output dir
+        "noEmitOnError": true // If exists errors do not comile
+    }
+}
